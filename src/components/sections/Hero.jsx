@@ -1,4 +1,3 @@
-import React from 'react'
 import {ChevronDown , Star} from 'lucide-react';
 import { SiReact,SiNextdotjs,SiTailwindcss,SiNodedotjs,SiMongodb} from 'react-icons/si'
 import {PERSONAL_INFO,STATS} from '../../utils/constants';
