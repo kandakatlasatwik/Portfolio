@@ -1,8 +1,8 @@
 import NavBar from './components/layouts/NavBar';
-import Hero from './components/sections/hero.jsx';
 import About from "./components/sections/About.jsx";
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
+import Hero from './components/sections/Hero';
 
 function App() {
   return (
