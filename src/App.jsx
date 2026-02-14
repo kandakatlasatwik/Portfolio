@@ -3,10 +3,12 @@ import About from "./components/sections/About.jsx";
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
 import Hero from './components/sections/Hero';
+import Contact from './components/sections/Contact';
+import Footer from './components/layouts/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black pb-[100vh]">
+    <div className="min-h-screen bg-black ">
       <NavBar />
 
       <main>
@@ -14,8 +16,10 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
        
       </main>
+      <Footer />
     </div>
   )
 }

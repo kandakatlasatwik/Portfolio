@@ -62,11 +62,15 @@ const NavBar = () => {
                   </nav>
                   {/* CTA button */}
                   <div className="hidden md:flex items-center gap-2">
-                    <button
-                    onClick={()=>handleNavClick('contact')}
+                    <a
+                    href="#contact"
+                    onClick={(e)=>{
+                      e.preventDefault();
+                      handleNavClick('contact');
+                    }}
                     className="px-7 py-3.5 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white hover:bg-white/90 transition-all duration-300">
                       Hire Me
-                    </button>
+                    </a>
                   </div>
                   {/* mobile Menu Button */}
                   <button
@@ -96,12 +100,16 @@ const NavBar = () => {
 
                   </button>
                 ))}
-                <button
-                onClick={()=>handleNavClick('contact')}
-                className="w-full px-7 py-3.5 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white/90 transition-all duration-300 mt-2">
+                <a
+                href="#contact"
+                onClick={(e)=>{
+                  e.preventDefault();
+                  handleNavClick('contact');
+                }}
+                className="w-full px-7 py-3.5 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white/90 transition-all duration-300 mt-2 text-center">
                   Hire Me
 
-                </button>
+                </a>
 
               </div>
             </div>

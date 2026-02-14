@@ -16,7 +16,7 @@ const About = () => {
     {name:'Node.js',icon:SiNodedotjs,color:'#339933'},
     {name:'MongoDB',icon:SiMongodb,color:'#47A248'}
   ]
- return <section id="about" className="relative py-20 bg-black overflow-hidden ">
+ return <section id="about" className="relative py-10 bg-black overflow-hidden ">
    <RadialGradientBackground variant="about" />
    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
     {/*main grid*/}

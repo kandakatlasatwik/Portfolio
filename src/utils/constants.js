@@ -1,10 +1,10 @@
 export const PERSONAL_INFO={
     name:'Kandakatla Satwik',
-    title:'MEAN Stack developer & Agentic Ai Engineer',
+    title:'MERN Stack developer & Agentic Ai Engineer',
     email: 'sathwikkarthik111@gmail.com',
     location: 'Hyderabad,India',
     tagline: 'Agentic ai specialist, intern at BURG rentals',
-    resume:'public/images/resume.pdf',
+    resume:'/images/resume.pdf',
 bio:[
     "Aspiring technology professional pursuing a Bachelor of Technology with a specialization in Artificial Intelligence and Machine Learning at Malla Reddy Engineering College. Developing a strong foundation in AI and ML and MERN stack with an emphasis on practical applications and innovative problem-solving. Committed to academic excellence while seeking opportunities to translate theoretical concepts into impactful realworld solutions"
 ]
@@ -12,7 +12,7 @@ bio:[
 
 export const SOCIAL_LINKS={
     github:'https://github.com/kandakatlasatwik',
-    linkedIn:'www.linkedin.com/in/kandakatla-satwik-a56350372',
+    linkedIn:'https://www.linkedin.com/in/kandakatla-satwik-a56350372',
     twitter:'https://twitter.com',
     instagram:'https://instagram.com'
 };

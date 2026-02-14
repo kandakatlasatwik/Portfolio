@@ -50,18 +50,7 @@ export const projects = [
         githubUrl:'https://github.com/kandakatlasatwik/recruitment-agent'
 
     },
-    {
-        id:5,
-        title: 'recruitment-agent',
-        description:'This is a Agentic ai project related to ai agents .created using google adk and gemini model',
-        image:'/images/projects/project4.png',
-        category:'Fullstack',
-        technologies:['Html','CSS','Javascript','React','ADK'],
-        metrics:'core AI agent performance metrics and specific recruitment key performance indicators',
-        demoUrl:' https://recruitment-agent-frontend.onrender.com',
-        githubUrl:'https://github.com/kandakatlasatwik/recruitment-agent'
-
-    }
+    
 ]
 export const categories=['All','Web Apps','Ai-Agents','Fullstack'];
  

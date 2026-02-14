@@ -60,7 +60,7 @@ const ProjectCard = ({project}) => {
           ))}
         </div>
         {metrics &&(
-          <div className="flex items-center">
+          <div className="flex items-center gap-2  pt-3 border-t  border-white/10">
             <TrendingUp className="w-4 h-4 text-green-400" />
             <p className="text-sm font-medium text-green-400">{metrics}</p>
 

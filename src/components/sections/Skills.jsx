@@ -42,7 +42,7 @@ const getLevelColor=(level)=>{
     };
     return colors[level] || 'text-gray-400 bg-gray-500/20 border-gray-500/30';
 };
-  return <section id="skills" className="relative py-20 bg-black overflow-hidden">
+  return <section id="skills" className="relative py-10 bg-black overflow-hidden">
     {/* Animated Background Gradients*/}
     <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-0 w-6 h-96 bg-primary/10 rounded-full blur-3xl opacity-50"></div>
